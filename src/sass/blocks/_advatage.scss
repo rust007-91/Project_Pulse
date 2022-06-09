@@ -1,0 +1,42 @@
+.edvantage {
+  padding: 65px 0 70px 0;
+  min-height: 475px;
+  background-color: #F6F6F6;
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icon {
+    &_animated {
+      /*animation: heartbeat 1.5s ease infinite;*/ //запись в одну строку
+      animation-name: heartbeat;
+      animation-duration: 1.5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+    margin-top: 65px;
+    width: 277px;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+    span {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+  &__descr {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #0D0D0D;
+  }
+
+}

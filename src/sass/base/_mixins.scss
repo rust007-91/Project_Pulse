@@ -1,0 +1,7 @@
+@mixin btn_hover {
+  &:hover {
+    background-color: rgb(161, 4, 4);
+    transition: 0.5s all;
+    border-color: #0d0d0d;
+  }
+}
